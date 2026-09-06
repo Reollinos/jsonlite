@@ -29,19 +29,19 @@ The library is designed to keep JSON file manipulation simple while still provid
 Install the package using `go get`:
 
 ```bash
-go get jsonlite
+go get github.com/Reollinos/jsonlite-go
 ```
 
 Or, if the project is hosted under a repository such as GitHub:
 
 ```bash
-go get github.com/yourusername/jsonlite
+go get github.com/Reollinos/jsonlite-go
 ```
 
 Then import it in your Go program:
 
 ```go
-import "jsonlite"
+import "github.com/Reollinos/jsonlite-go"
 ```
 
 ---
@@ -65,7 +65,7 @@ package main
 
 import (
     "fmt"
-    "jsonlite"
+    "github.com/Reollinos/jsonlite-go"
 )
 
 func main() {
@@ -372,7 +372,7 @@ package main
 
 import (
     "fmt"
-    "jsonlite"
+    "github.com/Reollinos/jsonlite-go"
 )
 
 func main() {
@@ -638,7 +638,7 @@ my-project/
 With:
 
 ```go
-import "jsonlite"
+import "github.com/Reollinos/jsonlite-go"
 ```
 
 The library itself can be organized as:
